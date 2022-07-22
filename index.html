@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/icon-cat.png">
+</head>
+<body>
+    <nav>
+        <h1>Pets Paradise</h1>
+        <ul>
+            <li>Home</li>
+            <li>Payment</li>
+            <li>Order</li>
+            <li>Wish Lists</li>
+        </ul>
+        <button>Login or Sign Up</button>
+    </nav>
+
+    <div class="searchBar-section">
+
+     <input type="search" id="search" placeholder="Search" />
+     
+
+     <button class="searchBtn">Search</button>
+    
+    </div>
+
+
+
+     <section class="body-part">
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>Raw Food</li>
+                <li>Kibble/Dry Food</li>
+                <li>Canned Food</li>
+                <li>Seme-Moist Food</li>
+                <li>Home Cooked Food</li>
+                
+            </ul>
+        </div>
+        <div class="show-photos">
+            <h2>We are also creatures. Feed us as you eat Please!</h2>
+            <img src="images/cat.jpg" alt="cat">
+            <img src="images/dogs.png" alt="dogs">
+
+           
+        </div>
+        <div class="join-box">
+            <h2>Welcome to Pets Paradise!</h2>
+            <div class="btn-signup-join">
+            <button class="signup">Sign Up</button>
+            <button class="join">Join</button>
+            </div>
+
+            <div class="small-card">
+                <p>Welcome to Pets Paradise!</p>
+                <p>Get items up to 70% off!</p>
+            </div>
+        </div>
+    </section>
+        <div class="availableBtn">
+        <button onclick="myFunction()" class="available-button">Available Products</button>
+        </div>
+
+    
+
+
+    <section class="section-2">
+        <div class="container"  id="element">
+            <div class="card-one cards">
+                <img src="available-products/canned-food.jpg" alt="">
+                <button>Order Now</button>
+            </div>
+            <div class="card-two cards">
+                <img src="available-products/catfood.png" alt="">
+                <button>Order Now</button>
+            </div>
+            <div class="card-three cards">
+                <img src="available-products/cooked-food.jpg" alt="">
+                <button>Order Now</button>
+
+            </div>
+
+            <div class="card-four cards">
+                <img src="available-products/dog1.jpeg" alt="">
+                <button>Order Now</button>
+            </div>
+            <div class="card-four cards">
+                <img src="available-products/dogs.png" alt="">
+                <button>Order Now</button>
+            </div>
+            <div class="card-four cards">
+                <img src="available-products/Hills-Science-Diet-Adult-Dry-Cat-Food.jpg" alt="">
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+        <p class="customer-service">Customer Service!</p>
+        </div>
+        <div class="contact">
+        <div class="phone-icon">
+        <img src="phoneicon.png" alt="">
+        </div>
+        <p>09770770057 / 09989839141</p>
+        </div>
+        <div class="location">
+            <img  class="location-svg" src="location.svg" alt="">
+            <p>NaungYah Qtr. / Loikaw City / Kayah State</p>
+        </div>
+    </footer>
+
+    
+</body>
+<script>
+function myFunction() {
+    const container = document.getElementById("element");
+    container.classList.toggle("container1");
+    
+}
+</script>
+</html>
